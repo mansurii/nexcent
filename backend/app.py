@@ -34,6 +34,6 @@ def index():
         return "Sorry, something went wrong! Check back later."
 
 # Production servers will completely ignore this block!
-# It only triggers when running the app locally for development.
+# It only triggers when running the app locally for development on your network.
 if __name__ == "__main__":
-    app.run(host='127.0.0.1', port=5000, debug=True, threaded=True )
+    app.run(host='0.0.0.0', port=5000, debug=True, threaded=True )
