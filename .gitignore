@@ -1,0 +1,25 @@
+# Templates sourced from:
+# https://github.com/github/gitignore/blob/main/Python.gitignore
+# https://gist.github.com/GhostofGoes/94580e76cd251972b15b4821c8a06f59
+
+# Editors
+.vscode/
+.idea/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
