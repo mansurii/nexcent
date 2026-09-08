@@ -1,0 +1,73 @@
+.navbar {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: auto;
+    height: 84px;
+    background-color: #F5F7FA;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.nav-links ul li a {
+ text-decoration: none;
+ color:  #18191F
+}
+
+.nav-links ul li a a:hover {
+}
+
+
+.nav-links a:active{
+    font-weight: bold;
+     color:  #18191F
+}
+
+
+
+.login {
+    display: flex;
+    width: 77px;
+    height: 40px;
+}
+.login a {
+    color: #4CAF4F;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.sign-up-button button {
+    width: 91px;
+    height: 40px; 
+    border-radius: 6px;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    padding: 20px 10px;
+  
+  
+}
+
+/**
+  font-family: ;
+    font-weight: ;
+    font-size: ;
+**/
