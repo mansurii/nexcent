@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from jinja2 import TemplateNotFound
-from app_logger import AppLogger 
+from .app_logger import AppLogger 
 
 """
 Main application file for the backend server.
