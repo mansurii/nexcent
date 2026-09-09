@@ -12,7 +12,7 @@ and handles basic routing with safe error logging.
 log = AppLogger().logger
 
 # Initialize Flask application
-app = Flask(__name__, template_folder="../frontend")
+app = Flask(__name__,    template_folder="../frontend/templates", static_folder="../frontend/static", static_url_path="/static")
 
 # Route for the index page
 @app.route("/")
